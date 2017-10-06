@@ -1,26 +1,41 @@
 .container {
-	max-width: 500px;
-	border: 1px ccc;
+  max-width: 500px;
 }
+
 h1 {
-	text-align: center;
+  text-align: center;
+  color: #00b9f1;
+  font-family: 'Boogaloo', cursive;
 }
 
 #inputForm {
-	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
-
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Boogaloo', cursive;
 }
 
 .panel-title {
-	text-align: center;
+  text-align: center
 }
 
 th, td {
+  text-align: center;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+#error {
+  display: none;
+}
+
+#output {
+  display: none;
+}
+
+#cityOutput {
 	text-align: center;
 }
-table {
-	martgin-botton: 0px;
 
-}
