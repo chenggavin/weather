@@ -27,6 +27,10 @@ th, td {
   margin-bottom: 0px;
 }
 
+.condition {
+  text-align: center;
+}
+
 #error {
   display: none;
 }
